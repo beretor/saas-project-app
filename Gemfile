@@ -25,6 +25,11 @@ gem 'net-smtp'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+
+gem 'philia', github: 'philsmy/philia', branch: 'main'
+#gem 'milia'
+gem 'devise'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
@@ -54,3 +59,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
